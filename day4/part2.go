@@ -1,7 +1,6 @@
 package day4
 
 import (
-	"fmt"
 	"io/ioutil"
 	"regexp"
 	"strconv"
@@ -29,10 +28,6 @@ func SolvePart2() int {
 			validPassports++
 		} else if len(keyValues) == 7 && !contains(keys, "cid") && validatePassport(keyValues) {
 			validPassports++
-		} else {
-			if len(keyValues) >= 7 {
-				fmt.Println(keyValues)
-			}
 		}
 	}
 
