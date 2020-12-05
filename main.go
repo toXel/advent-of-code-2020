@@ -7,6 +7,7 @@ import (
 	"github.com/toXel/advent-of-code-2020/day2"
 	"github.com/toXel/advent-of-code-2020/day3"
 	"github.com/toXel/advent-of-code-2020/day4"
+	"github.com/toXel/advent-of-code-2020/day5"
 )
 
 func main() {
@@ -18,4 +19,6 @@ func main() {
 	println("Day 3 Part 2: " + fmt.Sprint(day3.SolvePart2()))
 	println("Day 4 Part 1: " + fmt.Sprint(day4.SolvePart1()))
 	println("Day 4 Part 2: " + fmt.Sprint(day4.SolvePart2()))
+	println("Day 5 Part 1: " + fmt.Sprint(day5.SolvePart1()))
+	println("Day 5 Part 2: " + fmt.Sprint(day5.SolvePart2()))
 }
